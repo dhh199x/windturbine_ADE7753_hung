@@ -1,0 +1,107 @@
+T3420 039:609.712   SEGGER J-Link V7.66b Log File
+T3420 039:609.807   DLL Compiled: May 30 2022 14:07:50
+T3420 039:609.826   Logging started @ 2023-03-13 04:49
+T3420 039:609.833 - 34.581ms
+T3420 039:609.847 JLINK_SetWarnOutHandler(...)
+T3420 039:609.854 - 0.010ms
+T3420 039:609.863 JLINK_OpenEx(...)
+T3420 039:611.075   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T3420 039:611.423   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T3420 039:611.628   Decompressing FW timestamp took 177 us
+T3420 039:618.081   Hardware: V9.40
+T3420 039:618.113   S/N: 59406895
+T3420 039:618.126   OEM: SEGGER
+T3420 039:618.139   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T3420 039:619.718   TELNET listener socket opened on port 19021
+T3420 039:625.495   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T3420 039:625.689   WEBSRV Webserver running on local port 19080
+T3420 039:631.134 - 21.288ms returns "O.K."
+T3420 039:631.167 JLINK_GetEmuCaps()
+T3420 039:631.176 - 0.012ms returns 0xB9FF7BBF
+T3420 039:631.192 JLINK_TIF_GetAvailable(...)
+T3420 039:631.345 - 0.163ms
+T3420 039:631.366 JLINK_SetErrorOutHandler(...)
+T3420 039:631.375 - 0.011ms
+T3420 039:631.665 JLINK_ExecCommand("ProjectFile = "C:\Users\ht\Desktop\DATN - version2\MDK-ARM\JLinkSettings.ini"", ...). 
+T3420 039:632.529 - 0.873ms returns 0x00
+T3420 039:632.554 JLINK_ExecCommand("Device = STM32F103C8", ...). 
+T3420 039:632.781   Device "STM32F103C8" selected.
+T3420 039:633.390 - 0.846ms returns 0x00
+T3420 039:633.427 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T3420 039:633.440 - 0.006ms returns 0x01
+T3420 039:633.450 JLINK_GetHardwareVersion()
+T3420 039:633.458 - 0.011ms returns 94000
+T3420 039:633.467 JLINK_GetDLLVersion()
+T3420 039:633.474 - 0.010ms returns 76602
+T3420 039:633.484 JLINK_GetOEMString(...)
+T3420 039:633.493 JLINK_GetFirmwareString(...)
+T3420 039:633.500 - 0.011ms
+T3420 039:633.514 JLINK_GetDLLVersion()
+T3420 039:633.521 - 0.010ms returns 76602
+T3420 039:633.531 JLINK_GetCompileDateTime()
+T3420 039:633.538 - 0.010ms
+T3420 039:633.548 JLINK_GetFirmwareString(...)
+T3420 039:633.556 - 0.010ms
+T3420 039:633.565 JLINK_GetHardwareVersion()
+T3420 039:633.572 - 0.010ms returns 94000
+T3420 039:633.582 JLINK_GetSN()
+T3420 039:633.590 - 0.011ms returns 59406895
+T3420 039:633.600 JLINK_GetOEMString(...)
+T3420 039:633.612 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T3420 039:634.165 - 0.566ms returns 0x00
+T3420 039:634.189 JLINK_HasError()
+T3420 039:634.206 JLINK_SetSpeed(5000)
+T3420 039:634.410 - 0.214ms
+T3420 039:634.700 JLINK_HasError()
+T3420 039:634.715 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T3420 039:634.722 - 0.011ms returns JLINKARM_RESET_TYPE_NORMAL
+T3420 039:634.732 JLINK_Reset()
+T3420 039:635.013   InitTarget() start
+T3420 039:635.033    J-Link Script File: Executing InitTarget()
+T3420 039:737.306   Can not attach to CPU. Trying connect under reset.
+T3420 039:890.309   Connecting to CPU via connect under reset failed.
+T3420 039:941.498   InitTarget() end
+T3420 039:941.590   Connect failed. Resetting via Reset pin and trying again.
+T3420 040:003.487   InitTarget() start
+T3420 040:003.573    J-Link Script File: Executing InitTarget()
+T3420 040:106.457   Can not attach to CPU. Trying connect under reset.
+T3420 040:259.265   Connecting to CPU via connect under reset failed.
+T3420 040:310.442   InitTarget() end
+T3420 040:310.527 - 675.809ms
+T3420 040:310.585 JLINK_GetId()
+T3420 040:311.051   InitTarget() start
+T3420 040:311.119    J-Link Script File: Executing InitTarget()
+T3420 040:413.149   Can not attach to CPU. Trying connect under reset.
+T3420 040:566.132   Connecting to CPU via connect under reset failed.
+T3420 040:617.328   InitTarget() end
+T3420 040:617.610   Connect failed. Resetting via Reset pin and trying again.
+T3420 040:680.376   InitTarget() start
+T3420 040:680.464    J-Link Script File: Executing InitTarget()
+T3420 040:783.294   Can not attach to CPU. Trying connect under reset.
+T3420 040:936.233   Connecting to CPU via connect under reset failed.
+T3420 040:987.336   InitTarget() end
+T3420 040:987.610 - 677.041ms returns 0x00000000
+T3420 040:987.671 JLINK_GetId()
+T3420 040:988.116   InitTarget() start
+T3420 040:988.211    J-Link Script File: Executing InitTarget()
+T3420 041:091.299   Can not attach to CPU. Trying connect under reset.
+T3420 041:244.182   Connecting to CPU via connect under reset failed.
+T3420 041:295.288   InitTarget() end
+T3420 041:295.379   Connect failed. Resetting via Reset pin and trying again.
+T3420 041:357.272   InitTarget() start
+T3420 041:357.359    J-Link Script File: Executing InitTarget()
+T3420 041:460.045   Can not attach to CPU. Trying connect under reset.
+T3420 041:613.151   Connecting to CPU via connect under reset failed.
+T3420 041:664.279   InitTarget() end
+T3420 041:664.386 - 676.730ms returns 0x00000000
+T3420 041:670.791 JLINK_GetFirmwareString(...)
+T3420 041:670.851 - 0.074ms
+T26FC 049:343.883 Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T26FC 049:344.174 Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink\JLinkGUIServer.exe
+T26FC 049:645.404 Failed to connect to J-Link GUI Server.
+T2BEC 058:529.658   
+  ***** Error: Connection to emulator lost!
+T3420 134:559.929 JLINK_Close()
+T3420 134:578.132 - 18.236ms
+T3420 134:578.174   
+T3420 134:578.186   Closed
